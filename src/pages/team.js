@@ -119,8 +119,35 @@ function Team() {
             </div>
           </div>
           <div className="row">
-            <div className="col col--3 margin-bottom--lg"></div>
             {/* div 5 */}
+            <div className="col col--3 margin-bottom--lg"></div>
+            {/* div 6 */}
+            <div className="col col--3 margin-bottom--lg">
+              <div
+                className={clsx("card", styles.showcaseUser)}
+                className="card item shadow--md"
+              >
+                <div className="card__header">
+                  <h2>Software Engineer</h2>
+                </div>
+                <div className="card__image">
+                  {/* image source */}
+                  <img src="/img/team.svg" loading="lazy" />
+                </div>
+                <div className="card__body">
+                  <div className="avatar">
+                    <div className="avatar__intro margin-left--none">
+                      <h4 className="avatar__name">David Wahyu Pradana</h4>
+                      <small className="avatar__subtitle text--justify">
+                        Selalu bersyukur, dengan profesionalitas untuk tanggung
+                        jawab di masa yang akan datang
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* div 7 */}
             <div className="col col--3 margin-bottom--lg">
               <div
                 className={clsx("card", styles.showcaseUser)}

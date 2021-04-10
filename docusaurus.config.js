@@ -11,7 +11,7 @@ module.exports = {
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
-      style: "dark",
+      // style: "dark",
       // title: 'My Site',
       logo: {
         alt: "My Site Logo",
@@ -34,24 +34,24 @@ module.exports = {
         },
       ],
       items: [
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
-        },
+        // {
+        //   to: "docs/",
+        //   activeBasePath: "docs",
+        //   label: "Docs",
+        //   position: "left",
+        // },
         {
           to: "team",
           label: "Team",
           position: "right",
           activeBaseRegex: `team`,
         },
-        { to: "blog", label: "Blog", position: "right" },
-        {
-          href: "https://github.com/fiqriachmada/smart",
-          label: "GitHub",
-          position: "right",
-        },
+        // { to: "blog", label: "Blog", position: "right" },
+        // {
+        //   href: "https://github.com/fiqriachmada/smart",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -59,24 +59,7 @@ module.exports = {
       links: [
         {
           // title: "Find we at",
-          items: [
-            // {
-            //   label: "Facebook",
-            //   // to: "Facebook/",
-            // },
-            // {
-            //   label: "Instagram",
-            //   // to: "Instagram/",
-            // },
-            // {
-            //   label: "Twitter",
-            //   // to: "Twitter/",
-            // },
-            // {
-            //   label: "LinkedIn",
-            //   // to: "LinkedIn/",
-            // },
-          ],
+          items: [],
         },
         {
           items: [
@@ -92,17 +75,6 @@ module.exports = {
               label: "admin@smartnusanatara.id",
               to: "mailto:admin@smartnusanatara.id",
             },
-            // {
-            //   label: "Team",
-            //   to: "team/",
-            // },
-            //       label: "Blog",
-            //       to: "blog",
-            //     },
-            //     {
-            //       label: "GitHub",
-            //       href: "https://github.com/fiqriachmada/smart",
-            //     },
           ],
         },
       ],
